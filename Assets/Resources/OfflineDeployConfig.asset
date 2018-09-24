@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0519c0f2c8bddcc48bda711fb0878ea1, type: 3}
+  m_Name: OfflineDeployConfig
+  m_EditorClassIdentifier: 
+  Label: DefaultConfig
+  IsIncluded: 1
+  Modules:
+  - Label: Modules
+    IsIncluded: 1
+    ScriptableObjects:
+    - {fileID: 11400000, guid: 0c68c1eccd7e1b8448382f2660859bf2, type: 2}
+    - {fileID: 11400000, guid: cdb5f3a3c20726f4d915dd98f811909f, type: 2}
+    - {fileID: 11400000, guid: ab10c902f25dd12428243f3bd3e8b342, type: 2}
+    - {fileID: 11400000, guid: 15e02e4a92a68d64db2d2e69da84480a, type: 2}
+    - {fileID: 11400000, guid: 833b9fcacc33a664db5560285336d1b4, type: 2}
+    - {fileID: 11400000, guid: 1600a006beb8efb48ad976e900ac543a, type: 2}
+    - {fileID: 11400000, guid: f50433c43a1825a489d88bb50b0b65a3, type: 2}
+    - {fileID: 11400000, guid: 1c0130895778f604c952a82ff719ea07, type: 2}
+    - {fileID: 11400000, guid: cfe02765f406ef4479cadd0f3e5d78e2, type: 2}
+    - {fileID: 11400000, guid: 1fdd2b3c3ec4b9d45bbbdf1b55380b95, type: 2}
+    GameObjects: []
+  - Label: Singles
+    IsIncluded: 1
+    ScriptableObjects: []
+    GameObjects:
+    - {fileID: 1138685831921806, guid: c4a18dfb748ba8840a2482c00f926778, type: 2}
+    - {fileID: 1938594969459240, guid: 4bc2b79522e302c43a766386e687494d, type: 2}
+    - {fileID: 1222258804175996, guid: 43f39e1beed439d4b8b17086aa2ad632, type: 2}
+    - {fileID: 1147272455703528, guid: 4ace45103e776c548bf73a450626054f, type: 2}
+    - {fileID: 1423162315773594, guid: 8c6ccbde78949aa43acb45640a111484, type: 2}
+    - {fileID: 1861498433119900, guid: f89b3e3017c4eb046b6f58f866e7d588, type: 2}
+  - Label: Temp
+    IsIncluded: 0
+    ScriptableObjects:
+    - {fileID: 11400000, guid: b73a0c8566bce214b90213509b867c53, type: 2}
+    - {fileID: 11400000, guid: 3a3b1a12189485140a1c88fcc4bc0212, type: 2}
+    GameObjects:
+    - {fileID: 1286512337844508, guid: 5d304d93c14f2cb499b376808301cd2d, type: 2}

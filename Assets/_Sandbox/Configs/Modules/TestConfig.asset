@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0519c0f2c8bddcc48bda711fb0878ea1, type: 3}
+  m_Name: TestConfig
+  m_EditorClassIdentifier: 
+  Label: SandboxConfig
+  IsIncluded: 1
+  Modules:
+  - Label: Modules
+    IsIncluded: 1
+    ScriptableObjects:
+    - {fileID: 11400000, guid: 5df613af88f7c1841b383a9eb5261939, type: 2}
+    - {fileID: 11400000, guid: ab10c902f25dd12428243f3bd3e8b342, type: 2}
+    - {fileID: 11400000, guid: 338e06ec4044da343847ff6f9ae73d39, type: 2}
+    GameObjects: []

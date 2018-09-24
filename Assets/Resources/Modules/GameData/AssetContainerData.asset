@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8133ae30ddc80b64fbcee9803f65cf86, type: 3}
+  m_Name: AssetContainerData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Avatars
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[AvatarData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Worlds
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[WorldData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  SignInBackgrounds:
+  - {fileID: 114678922109890074, guid: edda4ec61004ff34192704a827fc6820, type: 2}
+  - {fileID: 114678922109890074, guid: e045699f33fd43142b08cf3d606c1f67, type: 2}
+  - {fileID: 114678922109890074, guid: 60b805e601d437e47b8b598c50aad7ce, type: 2}
+  - {fileID: 114678922109890074, guid: cca39c4268ba2214da46b5f08f40111e, type: 2}
+  - {fileID: 114678922109890074, guid: eebe8fd497072ab429a810d0b9bb2e93, type: 2}
+  - {fileID: 114678922109890074, guid: a3fa06ece2208634aa25b1e4f67a0fe7, type: 2}
+  - {fileID: 114678922109890074, guid: f44217c65ca6eb845a921c4758969e52, type: 2}
+  - {fileID: 114678922109890074, guid: 52d9bddd463ab894d9c0d5e53b34f257, type: 2}
+  PlayerPrefab: {fileID: 1082243861227878, guid: bec721cf90a41b643a4427de14b8cd77,
+    type: 2}
+  AvatarPaths:
+  - Prefabs/Data/Avatars
+  WorldPaths:
+  - Prefabs/Data/Worlds
+  SignInBackgroundPaths:
+  - Prefabs/Data/SignInBackgrounds

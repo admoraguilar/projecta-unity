@@ -1,0 +1,44 @@
+RULES:
+- Modules can either be a:
+  - Service
+  - Pure data
+
+- Systems shall be:
+  - Game Logic
+  - MonoBehaviours (like rendering according to modules)
+
+- Always think if your component can just be added to a gameObject on-the-fly and voila that gameObject has that behaviour without any errors.
+- Reduce code coupling as much as possible, Data processing shall not be passed to alot of classes to reduce complexity.
+- DO NOT WRITE SHIT CODE TO REDUCE TECHNICAL DEBT! AFTER FINISHING A CODE SNIPPET, ALWAYS TAKE THE TIME TO EVALUATE IT BEFORE MOVING ON.
+- Comment code snippets that are pretty densed, so it's easier to read, and understand after not being looked at for a time.
+- Calling functions from the modules shall always be one-liners
+
+
+
+MODULE DEPENDENCIES:
+DefaultNetwork:
+- ATime
+- AGameData
+- ASceneLoader
+
+PhotonPUNNetwork:
+- AGameData
+- ASceneLoader
+
+
+
+OBSOLETE RULES:
+### MANUAL INJECTION, MANUAL INJECTION, MANUAL INJECTION
+   - Auto-injection now as manual injection is just too error-prone
+
+
+STUFF:
+- What do modules initialization do?
+  - Instantiate some monobehaviour counterparts, something like Photon needs that so it can
+    register to callbacks.
+  - Initialize their values, gamedata needs this so it's data is properly set before
+    systems use it and we can prevent null values.
+  - Reset values to their default state
+
+- If UnityUI ScrollView, Slider handles are going weird try to 0-out the parent canvas or
+  elements, make sure things are not having weird garbage values
