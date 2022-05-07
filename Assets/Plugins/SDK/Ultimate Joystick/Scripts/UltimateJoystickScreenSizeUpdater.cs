@@ -1,0 +1,28 @@
+﻿/* Written by Kaz Crowe */
+/* UltimateJoystickScreenSizeUpdater.cs */
+using UnityEngine;
+using System.Collections;
+using UnityEngine.EventSystems;
+
+public class UltimateJoystickScreenSizeUpdater : UIBehaviour
+{
+    protected override void OnRectTransformDimensionsChange() {
+        if(gameObject.activeSelf) StartCoroutine(YieldPositioning());
+    }
+
+    protected override void OnTransformParentChanged() {
+        if(gameObject.activeSelf) StartCoroutine(YieldPositioning());
+    }
+
+    protected override void OnBeforeTransformParentChanged() {
+        if(gameObject.activeSelf) StartCoroutine(YieldPositioning());
+    }
+
+    IEnumerator YieldPositioning() {
+		yield return new WaitForEndOfFrame();
+
+		UltimateJoystick[] allJoysticks = FindObjectsOfType( typeof( UltimateJoystick ) ) as UltimateJoystick[];
+		for( int i = 0; i < allJoysticks.Length; i++ )
+			allJoysticks[ i ].UpdatePositioning();
+	}
+}

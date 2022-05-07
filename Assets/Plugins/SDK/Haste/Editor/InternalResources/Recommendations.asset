@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1802954040, guid: 3f3e053a2d65b4eb9a9ef35566b81122, type: 3}
+  m_Name: Recommendations
+  m_EditorClassIdentifier: 
+  recent:
+  - path: Assets/Resources/Scenes/HomespaceScene.unity
+    pathLower: assets/resources/scenes/homespacescene.unity
+    name: HomespaceScene
+    nameLower: homespacescene
+    id: 0
+    source: Project
+    boundariesLower: arshs.u
+    bitset: 37610282
+    extensionLower: unity
+    userScore: 0.80999994
+  - path: Assets/Resources/Scenes/BufferScene.unity
+    pathLower: assets/resources/scenes/bufferscene.unity
+    name: BufferScene
+    nameLower: bufferscene
+    id: 0
+    source: Project
+    boundariesLower: arsbs.u
+    bitset: 37536366
+    extensionLower: unity
+    userScore: 0.25418648
+  - path: Assets/Resources/Scenes/Worlds/TheGalleryWorldScene.unity
+    pathLower: assets/resources/scenes/worlds/thegalleryworldscene.unity
+    name: TheGalleryWorldScene
+    nameLower: thegalleryworldscene
+    id: 0
+    source: Project
+    boundariesLower: arswtgws.u
+    bitset: 45929402
+    extensionLower: unity
+    userScore: 0.34867835
+  - path: Assets/Resources/Scenes/Worlds/TheGalleryWorldScene.unity
+    pathLower: assets/resources/scenes/worlds/thegalleryworldscene.unity
+    name: TheGalleryWorldScene
+    nameLower: thegalleryworldscene
+    id: 0
+    source: Project
+    boundariesLower: arswtgws.u
+    bitset: 45929402
+    extensionLower: unity
+    userScore: 0.28242943
+  - path: Assets/Resources/Scenes/Worlds/TheHubWorldScene.unity
+    pathLower: assets/resources/scenes/worlds/thehubworldscene.unity
+    name: TheHubWorldScene
+    nameLower: thehubworldscene
+    id: 0
+    source: Project
+    boundariesLower: arswthws.u
+    bitset: 45929278
+    extensionLower: unity
+    userScore: 0.6560999
+  - path: Assets/_Sandbox/Scenes/SandboxScene.unity
+    pathLower: assets/_sandbox/scenes/sandboxscene.unity
+    name: SandboxScene
+    nameLower: sandboxscene
+    id: 0
+    source: Project
+    boundariesLower: assss.u
+    bitset: -2093432258
+    extensionLower: unity
+    userScore: 0.18530193
+  - path: Assets/Plugins/Assets/Island pack/scenes/island scene.unity
+    pathLower: assets/plugins/assets/island pack/scenes/island scene.unity
+    name: island scene
+    nameLower: island scene
+    id: 0
+    source: Project
+    boundariesLower: apaipsis.u
+    bitset: 37345979
+    extensionLower: unity
+    userScore: 0.15009457
+  - path: Assets/Resources/Scenes/Worlds/TotemIsland.unity
+    pathLower: assets/resources/scenes/worlds/totemisland.unity
+    name: TotemIsland
+    nameLower: totemisland
+    id: 0
+    source: Project
+    boundariesLower: arswti.u
+    bitset: 45937210
+    extensionLower: unity
+    userScore: 0.7289999
+  - path: Assets/Resources/Prefabs/Data/SignInBackgrounds
+    pathLower: assets/resources/prefabs/data/signinbackgrounds
+    name: SignInBackgrounds
+    nameLower: signinbackgrounds
+    id: 0
+    source: Project
+    boundariesLower: arpdsib
+    bitset: 4049662
+    extensionLower: 
+    userScore: 0.9
+  - path: Assets/Resources/Scenes/SignInScene.unity
+    pathLower: assets/resources/scenes/signinscene.unity
+    name: SignInScene
+    nameLower: signinscene
+    id: 0
+    source: Project
+    boundariesLower: arssis.u
+    bitset: 37536426
+    extensionLower: unity
+    userScore: 1
+  - path: Assets/Resources/Scenes/Worlds/TotemIsland
+    pathLower: assets/resources/scenes/worlds/totemisland
+    name: TotemIsland
+    nameLower: totemisland
+    id: 0
+    source: Project
+    boundariesLower: arswti
+    bitset: 12382778
+    extensionLower: 
+    userScore: 0.5904899
